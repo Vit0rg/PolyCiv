@@ -152,7 +152,7 @@
 		"requiredTech": "Machinery",
 		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
-			"6 tiles in every direction always visible"],
+			"[+6] Sight", "Can see over obstacles"],
 		"attackSound": "shot"
 	},
 	{

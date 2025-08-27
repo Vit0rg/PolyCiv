@@ -1,41 +1,80 @@
 [
+  // TODO: Organize tiers and tree positions, balance tech combinations
   {
     "columnNumber": 0,
-    "era": "Polytopian era",
+    "era": "Tier 1 era",
     "techCost": 35,
     "buildingCost": 60,
     "wonderCost": 275,
     "techs": [
       {
         "name": "Hunting",
-        "row": 2
-      },
-      {
-        "name": "Fishing",
-        "row": 5
+        "row": 0
       },
       {
         "name": "Climbing",
-        "row": 8
+        "row": 0
+      },
+      {
+        "name": "Organization",
+        "row": 0
+      },
+      {
+        "name": "Riding",
+        "row": 0
+      },
+      {
+        "name": "Fishing",
+        "row": 0
       }
     ]
   },
   {
     "columnNumber": 1,
-    "era": "Polytopian era",
+    "era": "Tier 2 era",
     "techCost": 55,
     "buildingCost": 75,
     "wonderCost": 275,
     "techs": [
+      {
+        "name": "Archery",
+        "row": 3,
+        "prerequisites": ["Hunting"]
+      },
       {
         "name": "Forestry",
         "row": 1,
         "prerequisites": ["Hunting"]
       },
       {
-        "name": "Archery",
-        "row": 3,
-        "prerequisites": ["Hunting"]
+        "name": "Mining",
+        "row": 7,
+        "prerequisites": ["Climbing"]
+      },
+      {
+        "name": "Meditation",
+        "row": 9,
+        "prerequisites": ["Climbing"]
+      },
+      {
+        "name": "Farming",
+        "row": 10,
+        "prerequisites": ["Organization"]
+      },
+      {
+        "name": "Strategy",
+        "row": 12,
+        "prerequisites": ["Organization"]
+      },
+      {
+        "name": "Roads",
+        "row": 13,
+        "prerequisites": ["Riding"]
+      },
+      {
+        "name": "Free Spirit",
+        "row": 15,
+        "prerequisites": ["Riding"]
       },
       {
         "name": "Sailing",
@@ -47,22 +86,12 @@
         "name": "Whaling",
         "row": 6,
         "prerequisites": ["Fishing"]
-      },
-      {
-        "name": "Mining",
-        "row": 7,
-        "prerequisites": ["Climbing"]
-      },
-      {
-        "name": "Meditation",
-        "row": 9,
-        "prerequisites": ["Climbing"]
       }
     ]
   },
   {
     "columnNumber": 2,
-    "era": "Polytopian era",
+    "era": "Tier 3 era",
     "techCost": 105,
     "buildingCost": 100,
     "wonderCost": 275,
@@ -70,23 +99,23 @@
       {
         "name": "Mathematics",
         "row": 1,
-        "prerequisites": ["Forestry","Archery"]
+        "prerequisites": ["Archery", "Meditation"]
       },
       {
         "name": "Metal Casting",
         "row": 2,
-        "prerequisites": ["Forestry","Archery"]
+        "prerequisites": ["Forestry","Mining"]
       },
       {
         "name": "Spiritualism",
         "row": 3,
-        "prerequisites": ["Archery"]
+        "prerequisites": ["Forestry"]
       },
       {
         "name": "Navigation",
         "row": 4,
         "prerequisites": ["Sailing"],
-        "uniques": ["Enables embarked units to enter ocean tiles"]
+        "uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Tier 1 era]>"]
       },
       {
         "name": "Compass",
@@ -102,103 +131,18 @@
       {
         "name": "Smithery",
         "row": 7,
-        "prerequisites": ["Mining"]
+        "prerequisites": ["Mining", "Forestry"]
       },
       {
         "name": "Coal Mining",
         "row": 8,
-        "prerequisites": ["Mining"]
+        "prerequisites": ["Mining", "Forestry"]
       },
       {
         "name": "Philosophy",
         "row": 9,
         "prerequisites": ["Meditation"]
-      }
-    ]
-  },
-  {
-    "columnNumber": 3,
-    "era": "Polytopian era",
-    "techCost": 175,
-    "buildingCost": 120,
-    "wonderCost": 275,
-    "techs": [
-      {
-        "name": "Physics",
-        "row": 1,
-        "prerequisites": ["Mathematics","Metal Casting"]
       },
-      {
-        "name": "Machinery",
-        "row": 3,
-        "uniques": ["Improves movement speed on roads"],
-        "prerequisites": ["Metal Casting","Archery"]
-      },
-      {
-        "name": "Astronomy",
-        "row": 5,
-        "prerequisites": ["Navigation","Compass"]
-      },
-      {
-        "name": "Industrialization",
-        "row": 8,
-        "prerequisites": ["Smithery","Coal Mining"]
-      }
-    ]
-  },
-  {
-    "columnNumber": 4,
-    "era": "Polytopian era",
-    "techCost": 35,
-    "buildingCost": 60,
-    "wonderCost": 275,
-    "techs": [
-      {
-        "name": "Organization",
-        "row": 2
-      },
-      {
-        "name": "Riding",
-        "row": 5
-      }
-    ]
-  },
-  {
-    "columnNumber": 5,
-    "era": "Polytopian era",
-    "techCost": 55,
-    "buildingCost": 75,
-    "wonderCost": 275,
-    "techs": [
-      {
-        "name": "Farming",
-        "row": 1,
-        "prerequisites": ["Organization"]
-      },
-      {
-        "name": "Shields",
-        "row": 3,
-        "prerequisites": ["Organization"]
-      },
-      {
-        "name": "Roads",
-        "row": 4,
-        "prerequisites": ["Riding"]
-      },
-      {
-        "name": "Free Spirit",
-        "row": 6,
-        "prerequisites": ["Riding"]
-      }
-    ]
-  },
-  {
-    "columnNumber": 6,
-    "era": "Polytopian era",
-    "techCost": 105,
-    "buildingCost": 100,
-    "wonderCost": 275,
-    "techs": [
       {
         "name": "Construction",
         "row": 1,
@@ -207,7 +151,7 @@
       {
         "name": "Architecture",
         "row": 2,
-        "prerequisites": ["Shields"]
+        "prerequisites": ["Strategy"]
       },
       {
         "name": "Trade",
@@ -227,12 +171,33 @@
     ]
   },
   {
-    "columnNumber": 7,
-    "era": "Polytopian era",
+    "columnNumber": 3,
+    "era": "Tier 4 era",
     "techCost": 175,
     "buildingCost": 120,
     "wonderCost": 275,
     "techs": [
+      {
+        "name": "Physics",
+        "row": 1,
+        "prerequisites": ["Mathematics","Metal Casting"]
+      },
+      {
+        "name": "Machinery",
+        "row": 3,
+        "uniques": ["Improves movement speed on roads"],
+        "prerequisites": ["Metal Casting","Archery"]
+      },
+      {
+        "name": "Astronomy",
+        "row": 5,
+        "prerequisites": ["Navigation","Compass","Physics"]
+      },
+      {
+        "name": "Industrialization",
+        "row": 8,
+        "prerequisites": ["Smithery","Coal Mining","Economics"]
+      },
       {
         "name": "Archaeology",
         "row": 2,
@@ -246,8 +211,8 @@
     ]
   },
   {
-    "columnNumber": 8,
-    "era": "Polytopian era",
+    "columnNumber": 7,
+    "era": "Tier 5 era",
     "techCost": 235,
     "buildingCost": 120,
     "wonderCost": 275,

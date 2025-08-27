@@ -25,7 +25,10 @@
 		"name": "Lighthouse",
 		"cost": 60,
 		"resourceBonusStats": {"food": 1},
-		"uniques": ["Can only be built in coastal cities", "[+1 Food] from [Water] tiles in this city"],
+		"uniques": ["Must be next to [Coast]",
+					"[+1 Food] from [Ocean] tiles [in this city]",
+					"[+1 Food] from [Coast] tiles [in this city]",
+					"[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -42,7 +45,10 @@
 		"greatPersonPoints": {"gold": 1},
 		"isWonder": true,
 		"providesFreeBuilding":  "Lighthouse",
-		"uniques": ["Must be next to [Coast]", "All military naval units receive +1 movement and +1 sight"],
+		"uniques": ["Must be next to [Coast]", 
+					"[+1] Movement <for [{Military} {Water}] units>",
+					"[+1] Sight <for [{Military} {Water}] units>",
+			 		"Gain a free [Lighthouse] [in this city]"],
 		"requiredTech": "Astronomy",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
@@ -202,5 +208,5 @@
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "+[5]% production when building [Buildings] in this city"],
 		"requiredTech": "Construction"
-	},
+	}
 ]

@@ -1,5 +1,6 @@
 [
-  // TODO: Organize tiers and tree positions, balance tech combinations
+  // TODO: Add Tier 4 (Unciv only techs)
+  // TODO: Add descriptions texts referring to the original techs
   {
     "columnNumber": 0,
     "era": "Tier 1 era",
@@ -7,25 +8,32 @@
     "buildingCost": 60,
     "wonderCost": 275,
     "techs": [
+      /*{
+        "name": "TECH_id_PEDIA",
+        "row": 2,
+        "prerequisites": [],
+        "civilopediaText": [{ "text": "TECH_id_PEDIA" }, { "text": "TECH_id_description" }],
+        "quote": "TECH_id_quote"
+      },*/
       {
-        "name": "Hunting",
-        "row": 0
+        "row": 1,
+        "name": "TECH_0t_0_PEDIA"
       },
       {
-        "name": "Climbing",
-        "row": 0
+        "row": 3,
+        "name": "TECH_0t_1_PEDIA"
       },
       {
-        "name": "Organization",
-        "row": 0
+        "row": 5,
+        "name": "TECH_0t_2_PEDIA"
       },
       {
-        "name": "Riding",
-        "row": 0
+        "row": 7,
+        "name": "TECH_0t_3_PEDIA"
       },
       {
-        "name": "Fishing",
-        "row": 0
+        "row": 9,
+        "name": "TECH_0t_4_PEDIA"
       }
     ]
   },
@@ -37,55 +45,45 @@
     "wonderCost": 275,
     "techs": [
       {
-        "name": "Archery",
-        "row": 3,
-        "prerequisites": ["Hunting"]
-      },
-      {
-        "name": "Forestry",
         "row": 1,
-        "prerequisites": ["Hunting"]
+        "name": "TECH_1t_0_0_PEDIA",
+        "prerequisites": ["TECH_0t_0_PEDIA"]
       },
       {
-        "name": "Mining",
-        "row": 7,
-        "prerequisites": ["Climbing"]
+        "row": 2,
+        "name": "TECH_1t_0_1_PEDIA",
+        "prerequisites": ["TECH_0t_0_PEDIA"]
       },
       {
-        "name": "Meditation",
-        "row": 9,
-        "prerequisites": ["Climbing"]
+        "row": 3,
+        "name": "TECH_1t_1_0_PEDIA",
+        "prerequisites": ["TECH_0t_1_PEDIA"]
       },
       {
-        "name": "Farming",
-        "row": 10,
-        "prerequisites": ["Organization"]
-      },
-      {
-        "name": "Strategy",
-        "row": 12,
-        "prerequisites": ["Organization"]
-      },
-      {
-        "name": "Roads",
-        "row": 13,
-        "prerequisites": ["Riding"]
-      },
-      {
-        "name": "Free Spirit",
-        "row": 15,
-        "prerequisites": ["Riding"]
-      },
-      {
-        "name": "Sailing",
         "row": 4,
-        "prerequisites": ["Fishing"],
-        "uniques": ["Enables embarkation for land units"]
+        "name": "TECH_1t_1_1_PEDIA",
+        "prerequisites": ["TECH_0t_1_PEDIA"]
       },
       {
-        "name": "Whaling",
+        "row": 5,
+        "name": "TECH_1t_2_0_PEDIA",
+        "prerequisites": ["TECH_0t_2_PEDIA"]
+      },
+      {
         "row": 6,
-        "prerequisites": ["Fishing"]
+        "name": "TECH_1t_2_1_PEDIA",
+        "prerequisites": ["TECH_0t_2_PEDIA"]
+      },
+      {
+        "row": 7,
+        "name": "TECH_1t_3_0_PEDIA",
+        "prerequisites": ["TECH_0t_3_PEDIA"]
+      },
+      {
+        "row": 8,
+        "name": "TECH_1t_4_0_PEDIA",
+        "prerequisites": ["TECH_0t_4_PEDIA"],
+        "uniques": ["Enables embarkation for land units"]
       }
     ]
   },
@@ -97,76 +95,46 @@
     "wonderCost": 275,
     "techs": [
       {
-        "name": "Mathematics",
         "row": 1,
-        "prerequisites": ["Archery", "Meditation"]
+        "name": "TECH_2t_0_0_PEDIA",
+        "prerequisites": ["TECH_1t_0_0_PEDIA"]
       },
       {
-        "name": "Metal Casting",
-        "row": 2,
-        "prerequisites": ["Forestry","Mining"]
-      },
-      {
-        "name": "Spiritualism",
-        "row": 3,
-        "prerequisites": ["Forestry"]
-      },
-      {
-        "name": "Navigation",
-        "row": 4,
-        "prerequisites": ["Sailing"],
-        "uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Tier 1 era]>"]
-      },
-      {
-        "name": "Compass",
-        "row": 5,
-        "prerequisites": ["Whaling","Sailing"],
-        "uniques": ["Increases embarked movement +1"]
-      },
-      {
-        "name": "Aquatism",
-        "row": 6,
-        "prerequisites": ["Whaling"]
-      },
-      {
-        "name": "Smithery",
-        "row": 7,
-        "prerequisites": ["Mining", "Forestry"]
-      },
-      {
-        "name": "Coal Mining",
-        "row": 8,
-        "prerequisites": ["Mining", "Forestry"]
-      },
-      {
-        "name": "Philosophy",
-        "row": 9,
-        "prerequisites": ["Meditation"]
-      },
-      {
-        "name": "Construction",
         "row": 1,
-        "prerequisites": ["Farming"]
+        "name": "TECH_2t_0_1_PEDIA",
+        "prerequisites": ["TECH_1t_0_1_PEDIA"]
       },
       {
-        "name": "Architecture",
-        "row": 2,
-        "prerequisites": ["Strategy"]
+        "row": 1,
+        "name": "TECH_2t_1_0_PEDIA",
+        "prerequisites": ["TECH_1t_1_0_PEDIA"]
       },
       {
-        "name": "Trade",
-        "row": 4,
-        "prerequisites": ["Roads"]
+        "row": 1,
+        "name": "TECH_2t_0_1_PEDIA",
+        "prerequisites": ["TECH_1t_0_1_PEDIA"]
       },
       {
-        "name": "Guilds",
-        "row": 5,
-        "prerequisites": ["Roads","Free Spirit"]
+        "row": 1,
+        "name": "TECH_2t_2_0_PEDIA",
+        "prerequisites": ["TECH_1t_2_0_PEDIA"]
       },
       {
-        "name": "Chivalry",
-        "row": 6,
-        "prerequisites": ["Free Spirit"]
+        "row": 1,
+        "name": "TECH_2t_0_1_PEDIA",
+        "prerequisites": ["TECH_1t_0_1_PEDIA"]
+      },
+      {
+        "row": 1,
+        "name": "TECH_2t_3_0_PEDIA",
+        "prerequisites": ["TECH_1t_3_0_PEDIA"]
+      },
+      {
+        "row": 0,
+        "name": "TECH_2t_4_0_PEDIA",
+        "prerequisites": ["TECH_1t_4_0_PEDIA"],
+        "uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Tier 1 era]>",
+                    "Increases embarked movement +1"]
       }
     ]
   },
@@ -178,51 +146,15 @@
     "wonderCost": 275,
     "techs": [
       {
-        "name": "Physics",
-        "row": 1,
-        "prerequisites": ["Mathematics","Metal Casting"]
-      },
-      {
-        "name": "Machinery",
-        "row": 3,
-        "uniques": ["Improves movement speed on roads"],
-        "prerequisites": ["Metal Casting","Archery"]
-      },
-      {
-        "name": "Astronomy",
-        "row": 5,
-        "prerequisites": ["Navigation","Compass","Physics"]
-      },
-      {
-        "name": "Industrialization",
-        "row": 8,
-        "prerequisites": ["Smithery","Coal Mining","Economics"]
-      },
-      {
-        "name": "Archaeology",
-        "row": 2,
-        "prerequisites": ["Construction","Architecture"]
-      },
-      {
-        "name": "Economics",
-        "row": 5,
-        "prerequisites": ["Trade","Guilds"]
-      }
-    ]
-  },
-  {
-    "columnNumber": 7,
-    "era": "Tier 5 era",
-    "techCost": 235,
-    "buildingCost": 120,
-    "wonderCost": 275,
-    "techs": [
-      {
-				"name": "Future Tech",
-				"row": 9,
-				"prerequisites": ["Physics","Machinery","Astronomy","Aquatism","Industrialization","Philosophy","Archaeology","Economics","Chivalry","Spiritualism"],
+				"row": 0,
+        "name": "Future Tech",
+				"prerequisites": ["TECH_0t_1_PEDIA", "TECH_0t_1_PEDIA", "TECH_0t_2_PEDIA", "TECH_0t_3_PEDIA", "TECH_0t_4_PEDIA",
+                          "TECH_1t_0_0_PEDIA", "TECH_1t_0_1_PEDIA","TECH_1t_1_0_PEDIA", "TECH_1t_1_1_PEDIA" ,
+                          "TECH_1t_2_0_PEDIA", "TECH_1t_2_1_PEDIA", "TECH_1t_3_0_PEDIA", "TECH_1t_4_0_PEDIA",
+                          "TECH_2t_0_0_PEDIA", "TECH_2t_0_1_PEDIA","TECH_2t_1_0_PEDIA", "TECH_2t_1_1_PEDIA" ,
+                          "TECH_2t_2_0_PEDIA", "TECH_2t_2_1_PEDIA", "TECH_2t_3_0_PEDIA", "TECH_2t_4_0_PEDIA"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"quote": "TECH_4t_0_quote"
 			}
     ]
   }

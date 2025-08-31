@@ -1,14 +1,14 @@
 [
 	{
-		"name": "Worker",
+		"name": "UNIT_CIVILIAN_1",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build improvements on tiles"],
 		"cost": 70,
-		"requiredTech": "Organization"
+		"requiredTech": "TECH_0t_3_PEDIA"
 	},
 	{
-		"name": "Settler",
+		"name": "UNIT_CIVILIAN_2",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
@@ -16,7 +16,7 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Warrior",
+		"name": "UNIT_MELEE_1",
 		"unitType": "Melee",
 		"movement": 1,
 		"strength": 10,
@@ -24,78 +24,80 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Work Boats",
+		"name": "UNIT_CIVILIAN_3",
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 70,
-		"requiredTech": "Fishing",
+		"requiredTech": "TECH_0t_4_PEDIA",
 		"uniques": ["May create improvements on water resources"]
 	},
 	{
-		"name": "Rider",
+		"name": "UNIT_MOUNTED_1",
 		"unitType": "Mounted",
 		"movement": 2,
 		"strength": 10,
 		"cost": 30,
-		"requiredTech": "Riding",
+		"requiredTech": "TECH_0t_2_PEDIA",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Knight",
+		"name": "UNIT_MOUNTED_2",
 		"unitType": "Mounted",
 		"movement": 3,
 		"strength": 15,
 		"cost": 80,
-		"requiredTech": "Chivalry",
+		"requiredTech": "TECH_2t_2_1_PEDIA",
 		"requiredResource": "Iron",
-		"uniques": ["No defensive terrain bonus","Penalty vs City 33%" ],
+		"uniques": ["No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Archer",
+		"name": "UNIT_RANGED_1",
 		"unitType": "Ranged",
 		"movement": 1,
 		"strength": 10,
 		"rangedStrength": 5,
 		"cost": 30,
-		"requiredTech": "Archery",
+		"requiredTech": "TECH_1t_0_0_PEDIA",
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Catapult",
+		"name": "UNIT_SIEGE_1",
 		"unitType": "Siege",
 		"movement": 1,
 		"strength": 10,
 		"rangedStrength": 8,
 		"range": 3,
 		"cost": 80,
-		"requiredTech": "Mathematics",
+		"requiredTech": "TECH_2t_0_1_PEDIA",
 		"requiredResource": "Iron",
-		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
-			"Must set up to ranged attack", "Limited Visibility"],
+		"uniques": ["Bonus vs City 200%", 
+					"No defensive terrain bonus",
+					"Must set up to ranged attack", 
+					"Limited Visibility"],
 		"attackSound": "throw"
 	},
 	{
-		"name": "Ship",
+		"name": "UNIT_WATERMELEE_1",
 		"unitType": "WaterMelee",
 		"movement": 3,
 		"strength": 20,
 		"cost": 50,
 		"requiredResource": "Iron",
-		"requiredTech": "Sailing",
+		"requiredTech": "TECH_1t_4_0_PEDIA",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Battleship",
+		"name": "UNIT_WATERRANGED_1",
 		"unitType": "WaterRanged",
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 150,
-		"requiredTech": "Navigation",
+		"requiredTech": "TECH_1t_4_0_PEDIA",
 		"requiredResource": "Coal",
 		"uniques": ["Ranged attacks may be performed over obstacles"]
 	},
@@ -104,30 +106,36 @@
 		"unitType": "Scout",
 		"movement": 1,
 		"strength": 10,
-		"cost": 50,
-		"requiredTech": "Philosophy",
-		"uniques": ["Ignores terrain cost","+2 Visibility Range"],
+		"cost": 80,
+		"requiredTech": "TECH_2t_1_1_PEDIA",
+		"uniques": [ //Insert Heal ability,
+					 // Insert conversion abilty (Check default German tree)
+					"Ignores terrain cost",
+					"+2 Visibility Range"
+					],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Swordsman",
+		"name": "UNIT_MELEE_2",
 		"unitType": "Melee",
 		"movement": 1,
 		"strength": 15,
 		"cost": 50,
-		"requiredTech": "Smithery",
+		"requiredTech": "TECH_2t_1_0_PEDIA",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Shield",
+		"name": "UNIT_MELEE_3",
 		"unitType": "Melee",
 		"movement": 1,
 		"strength": 15,
 		"cost": 30,
-		"uniques": ["Penalty vs land units 50%"],
-		"requiredTech": "Shields"
-	},
+		"uniques": [// Add Fortification bonus
+					"Penalty vs land units 50%"],
+		"requiredTech": "TECH_1t_2_1_PEDIA"
+	}
+	/*
 	{
 		"name": "Bomber",
 		"unitType": "Bomber",
@@ -136,7 +144,7 @@
 		"rangedStrength": 14,
 		"range": 20,
 		"cost": 100,
-		"requiredTech": "Machinery",
+		"requiredTech": "",
 		"requiredResource": "Oil",
 		"attackSound": "shot"
 	},
@@ -149,10 +157,11 @@
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 80,
-		"requiredTech": "Machinery",
+		"requiredTech": "",
 		"requiredResource": "Oil",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
-			"[+6] Sight", "Can see over obstacles"],
+		"uniques": ["[100]% chance to intercept air attacks",
+					"Bonus vs Bomber 150%",
+					"[+6] Sight", "Can see over obstacles"],
 		"attackSound": "shot"
 	},
 	{
@@ -163,7 +172,7 @@
 		"rangedStrength": 40,
 		"cost": 90,
 		"requiredResource": "Coal",
-		"requiredTech": "Astronomy",
+		"requiredTech": "",
 		"uniques": ["Can carry 2 aircraft"]
-	}
+	}*/
 ]

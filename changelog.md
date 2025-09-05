@@ -6,6 +6,8 @@ Fixed Units
 
 Fixed Buildings
 
-Fixed Improvements
+Fixed TileImprovements
+
+Fixed TileResources
 
 Fixed Terrains

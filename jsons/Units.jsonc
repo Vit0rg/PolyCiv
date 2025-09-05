@@ -39,7 +39,9 @@
 		"cost": 30,
 		"requiredTech": "TECH_0t_2_PEDIA",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -50,7 +52,8 @@
 		"cost": 80,
 		"requiredTech": "TECH_2t_2_1_PEDIA",
 		"requiredResource": "Iron",
-		"uniques": ["No defensive terrain bonus","Penalty vs City 33%"],
+		"uniques": ["No defensive terrain bonus",
+					"[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -73,7 +76,7 @@
 		"cost": 80,
 		"requiredTech": "TECH_2t_0_1_PEDIA",
 		"requiredResource": "Iron",
-		"uniques": ["Bonus vs City 200%", 
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", 
 					"No defensive terrain bonus",
 					"Must set up to ranged attack", 
 					"Limited Visibility"],
@@ -131,8 +134,13 @@
 		"movement": 1,
 		"strength": 15,
 		"cost": 30,
-		"uniques": [// Add Fortification bonus
-					"Penalty vs land units 50%"],
+		"uniques": [
+					"[+75]% Strength <vs [Melee] units>",
+					"[+75]% Strength <vs [Ranged] units>",
+					"[+75]% Strength <vs [Mounted] units>",
+					"[-75]% Strength <vs [Melee] units> <when attacking>",
+					"[-75]% Strength <vs [Ranged] units> <when attacking>",
+					"[-75]% Strength <vs [Mounted] units> <when attacking>"],
 		"requiredTech": "TECH_1t_2_1_PEDIA"
 	}
 ]

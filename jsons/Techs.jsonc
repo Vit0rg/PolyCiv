@@ -153,7 +153,7 @@
                           "TECH_1t_2_0_PEDIA", "TECH_1t_2_1_PEDIA", "TECH_1t_3_0_PEDIA", "TECH_1t_4_0_PEDIA",
                           "TECH_2t_0_0_PEDIA", "TECH_2t_0_1_PEDIA","TECH_2t_1_0_PEDIA", "TECH_2t_1_1_PEDIA" ,
                           "TECH_2t_2_0_PEDIA", "TECH_2t_2_1_PEDIA", "TECH_2t_3_0_PEDIA", "TECH_2t_4_0_PEDIA"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"uniques": ["Can be continually researched"],
 				"quote": "TECH_4t_0_quote"
 			}
     ]

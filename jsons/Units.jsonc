@@ -135,44 +135,4 @@
 					"Penalty vs land units 50%"],
 		"requiredTech": "TECH_1t_2_1_PEDIA"
 	}
-	/*
-	{
-		"name": "Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 20,
-		"rangedStrength": 14,
-		"range": 20,
-		"cost": 100,
-		"requiredTech": "",
-		"requiredResource": "Oil",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 15,
-		"rangedStrength": 8,
-		"range": 10,
-		"interceptRange": 10,
-		"cost": 80,
-		"requiredTech": "",
-		"requiredResource": "Oil",
-		"uniques": ["[100]% chance to intercept air attacks",
-					"Bonus vs Bomber 150%",
-					"[+6] Sight", "Can see over obstacles"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Carrier",
-		"unitType": "WaterAircraftCarrier",
-		"movement": 5,
-		"strength": 10,
-		"rangedStrength": 40,
-		"cost": 90,
-		"requiredResource": "Coal",
-		"requiredTech": "",
-		"uniques": ["Can carry 2 aircraft"]
-	}*/
 ]

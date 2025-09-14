@@ -11,3 +11,9 @@ Fixed TileImprovements
 Fixed TileResources
 
 Fixed Terrains
+
+Fixed Nations
+
+Fixed  Nations Colors
+
+Fixed Nations Uniques

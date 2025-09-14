@@ -1,0 +1,426 @@
+[
+	//Spectator
+  {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+    //"innerColor": [0,0,0]
+	},
+  {
+    "name": "Xin-Xi", //China (could be Japan)
+    "leaderName": "Leader Xin-Xi",
+    "adjective": ["Xin-Xi"],
+    "startBias": ["Hill", "Coast"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [139, 0, 0],
+    "innerColor": [255,255,255],
+    "startIntroPart1" : ["They start their journey in the dense mountains, surrounded by beautiful cherry blossom."],
+
+    "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Leader Hoodrick. Hoodrick desires peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+    "uniqueName": "Art of War",
+    "uniques": [//Add free Climbing Tech
+                "Great General provides double combat bonus",
+                "[Great General] is earned [50]% faster"],
+    "cities":["Bubu","Bucha","Bugu","Chabu","Chacha","Chagu","Gucha","Gubu","Libu","Licha","Ligu","Lilo","Lipo","Shacha","Shagu","Shali","Xibu","Xicha","Yobu","Yocha"]
+  },
+  {
+    "name": "Imperius", //Replaces Rome (could be Greece)
+    "leaderName": "Leader Imperius",
+    "adjective": "Imperius",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Diplomatic",
+    "outerColor": [0,0,255],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["Huge mountains and green valleys. The Imperius climate is perfect for growing fruit."],
+
+    "declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "The Gods frown upon your foolishness.",
+		"introduction": "Hello stranger! I am Imperius, son of kings and grandson of the gods!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+    "uniqueName": "Hellenic League",
+		"uniques": ["[-50]% City-State Influence degradation",
+                "City-State Influence recovers at twice the normal rate",
+                "City-State territory always counts as friendly territory"],
+    "cities":["Cado","Caica","Caip","Caip","Doca","Doica","Doip","Icaca","Icado","Icaip","Lomus","Lonu","Lopi","Maca","Mado","Mamus","Nudo","Nuica","Nusum"]
+  },
+  {
+    "name": "Oumaji", //Replaces Persia
+    "leaderName": "Leader Oumaji", 
+    "adjective": "Oumaji",
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [231,116,0],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The seemingly endless, sun-blessed desert is the home of the Oumaji tribe."],
+
+    "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
+		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+		"introduction": "Peace be on you! I am Leader Oumaji, the great and outstanding king of kings of great Oumaji... but I suppose you knew that.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+    "uniqueName": "Achaemenid Legacy",
+    "uniques": ["[+50]% Golden Age length", 
+					      "[+1] Movement <for [All] units> <during a Golden Age>",
+					      "[+10]% Strength <for [All] units> <during a Golden Age>"],
+
+    "cities":["Badorgh","Brark","Urulanta","dorbamu","dorbaon","dorghye","dorhaon","doronji","doronlim","ghdorke","ghhalim","ghkemu","ghmuba","ghsila","habador","hadorba","haghon","hakedor","halagh","haonji"]
+  },
+  {
+    "name": "Bardur", //Replaces Denmark
+    "leaderName": "Leader Bardur",
+    "adjective": "Bardur",
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [25,25,25],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["Surviving the harsh eternal winter of the Bardur woods is not an easy task, but Bardur seems to thrive here."],
+
+    "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
+		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"denounced": "Our future battle will be glorious!",
+		"introduction": "Leader Bardur bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+
+    "uniqueName": "Viking Fury",
+    "uniques": ["[+1] Movement <for [Embarked] units>", 
+                "[1] Movement point cost to disembark <for [All] units>",
+			          "No movement cost to pillage <for [Melee] units>"],
+
+    "cities":["arkbufla","arkbugru","buflaork","bugruark","bugugru","flagrulak","grugurø","gulak","gruguork","grulakur","gruorklak","gruorktof","grurøtof","gruurark","guarklak","gubufla","gubutof","lakflagru","lakgruur","lakgugru"]
+  },
+  {
+    "name": "Kickoo", //Replaces Polynesia
+    "leaderName": "Leader Kickoo",
+    "adjective": "Kickoo",
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [40, 170, 40],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["White sandy beaches with coconut palms. Abundance of fruit and fish. Welcome to the home of the Kickoo."],
+
+    "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
+		"denounced": "The ocean's tide may rise and fall, but my resolve stands steady.",
+		"introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
+		"neutralHello": "Welcome, friend!",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come, let our people feast together!",
+
+    "uniqueName": "Wayfinding",
+    "uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+                "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+                "[+1] Sight <for [Embarked] units>",
+                "[+10]% Strength <within [2] tiles of a [Moai]>"],
+
+    "cities":["sivaan","sivanu","sivalo","sivama","sikolu","sikoli","silono","silooki","siloli","siokino","simava","vasino","vaannu","vanuan","vanulo","valulo","vakonu","vanolo","valoli","valian"]
+  },
+  {
+    "name": "Hoodrick", //Replaces England (Longbowman + preferredVictoryType)
+    "leaderName": "Leader Hoodrick",
+    "adjective": ["Hoodrick"],
+    "startBias": ["Plains", "Coast"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [0,153,0],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The yellow autumn leaves of the Hoodrick woods are perfect hideouts for its peculiar mushroom stuffing inhabitants."],
+
+    "declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "We shall never surrender.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"denounced": "Watch yourself, your pride will be your downfall.",
+		"introduction": "We are pleased to meet you.",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement with Hoodrick?",    
+    
+    "uniqueName": "Sun Never Sets",
+    "uniques": ["[+2] Movement <for [Water] units>"],
+    
+    "cities":["thleylo","thleyol","thleyber","thleydon","thleyick","leythlo","leythol","leythber","leylodon","leylogo","loolick","olloth","ollober","olleydo","ollowa","olberick","olberin","olbergo","bericklo","berwego","bergoth","berdoth","donleygo"]
+  },
+  {
+    "name": "Luxidoor",
+    "leaderName": "Leader Luxidoor", //Replaces Egypt (but should be Phoenicia)
+    "adjective": ["Luxidoor"],
+    "startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [170,0,255],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The Luxidoor love expensive things, jewels, rare spices and exclusive ornaments.",
+                        "That is also why they are the most expensive tribe in Polytopia!",
+                        "The Luxidoor citizens lead very comfortable lives, draped in the finest purple silk.",
+                        "But will they survive outside the walls of their beloved capital?"],
+
+    "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am the living embodiment of Luxidoor, mother and father of all civilizations.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Generous Luxidoor makes you this offer.",                        
+    
+    "uniqueName": "Monument Builders",
+    "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
+
+    "cities":["isslôgaexipô","isslôgaexini","isslôgaexiau","isslôgaexiki","isslôgaexiem","isslôgaexily","isslôgaexiux","isslôgaexiuss","isslôgaexiou","isslôgapôexi","isslôgapôni","isslôgapôau","isslôgapôki","isslôgapôem","isslôgapôly","isslôgapôux","isslôgapôuss","isslôgapôou","isslôganiexi","isslôganipô"]
+  },
+  {
+    "name": "Vengir", //Replaces Mongolia
+    "leaderName": "Leader Vengir",
+    "adjective": ["Vengir"],
+    "startBias": ["Avoid [Tundra]", "Plains"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [89,89,89],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["Frowned upon by the other tribes and pushed into the unpleasant wastelands.", 
+                        "Will they tolerate this injustice or rise to fight back?"],
+
+    "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
+		"attacked": "No more words. Today, Vengir charges toward your defeat.",
+		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
+		"denounced": "Your bravery must be commended.",
+		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Vengir lands. Behind me is the only cavalry that matters.",
+		"neutralHello": "Hello.",
+		"hateHello": "So what now?",
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+
+    "uniqueName": "Mongol Terror",
+		"uniques": ["[+30]% Strength <vs [City-States]>", 
+                "[+1] Movement <for [Mounted] units>"],
+                        
+    "cities":["gortu","gordis","gorbu","gornt","gorar","gorpe","gorrz","gorcth","gorna","gorxas","gorth","gorhe","gorst","gorim","gorck","tugor","tudis","tubu","tunt","tuar"]
+  },
+  {
+    "name": "Zebazi", //Replaces Inca
+    "leaderName": "Leader Zebazi",
+    "adjective": ["Zebazi"],
+    "startBias": ["Avoid [Desert]", "Hill"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [204,102,0],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["Zebasi thrive on the warm savannah, cultivating the rich soil to provide food for their mighty population."],
+    
+    "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Zebazi empire. If you will not surrender immediately, then prepare for war!",
+		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"introduction": "How are you? You stand before Leader Zebazi.",
+
+		"neutralHello": "How are you doing?",
+
+		"hateHello": "What do you want now?",
+		"tradeRequest": "The Zebazi people offer this fair trade.",
+
+    "uniqueName": "Great Andean Road",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
+			          "[-50]% maintenance on road & railroads",
+			          "No Maintenance costs for improvements in [Hill] tiles"],
+
+    "cities":["lazanmo","lazanza","lazanzim","lazanya","lazanbo","lazanwa","lazanco","lazanzu","lamozan","lamoza","lamozim","lamoya","lamobo","lamowa","lamoco","lamozu","lazazan","lazamo","lazazim","lazaya"]
+  },
+  {
+    "name": "Ai-Mo", //Replaces India
+    "leaderName": "Leader Ai-Mo",
+    "adjective": ["Ai-Mo"],
+    "startBias": ["Hill"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [70, 160, 175],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The tranquil and wise Ai-Mo tribe inhabits the harshest, windiest, and highest mountain range of the square, where they have found inner peace by meditating in the eternal evening light."],
+    
+    "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"denounced": "Curious.",
+		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
+		"neutralHello": "I wish you peace.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+    "uniqueName": "Population Growth",
+		"uniques": ["[+100]% unhappiness from the number of cities", 
+                "[-50]% Unhappiness from [Population] [in all cities]"],
+    
+    "cities":["sotop olee","sotopodee","sotop otï","sotopopï","sotopofï","sotoposï","sotop onï","sotopolï","sotopokï","sotoleepo","sotole edee","sotoleetï","so toleepï","sotoleefï","soto eesï","so tol eenï","sotoleelï","sotoleekï","sotodeepo","soto deelee"]
+  },
+  {
+    "name": "Quetzali", //Replaces Aztecs
+    "leaderName": "Leader Quetzali",
+    "adjective": ["Quetzali"],
+    "startBias": ["Jungle"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [29,71,62],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The Quetzali tribe worship the bird gods of the red soil and live in harmony with the natural symmetry of their cubistic jungles. They are commonly seen riding giant flightless birds."],
+
+    "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
+		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"defeated": "Monster! Who are you to destroy my greatness?",
+		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+		"neutralHello": "Welcome, friend.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+
+    "uniqueName": "Sacrificial Captives",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+
+    "cities": ["jaixex","jaixwas","jaixtz","jaixel","jaixqu","jaixill","jaixchu","jaixca","jaixya","jaixwop","jaixcho","jaixtal","jaixtek","jaix","jaexix","jaexwas","jaextz","jaexel","jaexqu","jaexill"]
+  },
+  {
+    "name": "Yadakk", //Replaces Arabia
+    "leaderName": "Leader Yadakk",
+    "adjective": ["Yădakk"],
+    "startBias": ["Avoid [Tundra]"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [89,28,30],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The Yădakk started out as a nomadic tribe in the beautiful harsh Khalee plains. Now they are the trades of the square, connecting their empire with impressive trade routes."],
+
+    "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"denounced": "Our future battle will be glorious.",
+		"introduction": "Welcome foreigner, I am Leader Yadakk, Caliph of the Yadakks. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+
+    "uniqueName": "Trade Caravans",
+		"uniques": ["[+1 Gold] from each Trade Route"
+                // ,"[+100]% [Oil] resource production" // Change when Oil is added back
+               ],
+
+    "cities": ["ültsaberki","ültsaberst","ültsaberăn","ültsaberol","ültsabermer","ültsaberkh","ültsaberki","ültsaberar","ültsaberüm","ültsabertja","ültsaberge","ültsaberurk","ültsaberark","ültsaberaz","ültsabergy","ültsaberug","ültsabersh","ültsaberkă","ültsaberkol","ültsabersam","ültsaberez"]
+  },
+  {
+    "name": "Aquarion", //Replaces Korea (or else it would be a nightmare to play with this)
+    "leaderName": "Leader Aquarion",
+    "adjective": ["Aquarion"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [209, 115, 112],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["From the deep oceans a long lost civilization appears! Their extreme isolation has given them special aquatic abilities that are unknown to the other more human tribes. Aquarion have a slightly different tech tree and have access to the unique amphibious turtle units that no other tribe can train."],
+    
+    "declaringWar": "We will liberate the citizens under your oppression even with force, and enlighten them!",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"denounced": "Your words reveal more of your own prejudice than any fault in my own.",
+		"introduction": "I am the learned Leader Aquarion, who looks after his great people.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+
+    "uniqueName": "Scholars of the Jade Hall",
+    "uniques": ["[+2 Science] from every specialist [in all cities]", 
+                "[+2 Science] from every [Great Improvement]",
+                "Receive a tech boost when scientific buildings/wonders are built in capital"],
+    
+    "cities": ["quodo","quotis","quonép","quoico","quoéid","quopo","quofic","quotun","quopol","quolan","quoaq","quoat","quotic","quonau","quoséi","doquo","dotis","donép","doico","doéid"]
+  },
+  {
+  "name": "Elyrion", // Replaces Iroquois (but Aztecs would be good too)
+  "leaderName": "Leader ∑∫ỹriȱŋ",
+  "adjective": ["∑∫ỹriȱŋ"],
+  "startBias": ["Jungle","Forest"],
+  "preferredVictoryType": "Cultural",
+  "outerColor": [220, 80, 230],
+  "innerColor": [255,255,255],
+  "startIntroPart1": ["The mysterious ∑∫ỹriȱŋ defend their woodland homes with colorful magic and the ferocity of fire-breathing dragons! They regard Nature as a holy spirit and cannot hunt animals or chop down trees, instead they start the game with the unique Enchantment tech that can turn regular animals into powerful monsters."],
+  
+  "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+	"attacked": "You evil creature! My braves will slaughter you!",
+	"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+	"denounced": "Words alone cannot shake the roots of peace I have planted among my people.",
+	"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Elyrion. We seek peace with all, but we do not shrink from war.",
+	"neutralHello": "Good day.",
+	"hateHello": "Oh, it's you.",
+	"tradeRequest": "Does this trade work for you, my friend?",
+
+  "uniqueName": "The Great Warpath",
+	"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+  // TODO: unique: replace helicopter with dragon (UH-1 Iroquois)
+  
+  "cities": ["πo⫛△‡","πo⫛△Ŧo","πo⫛△‡o","πo⫛△△Ħ△","πo⫛△Ωm","πo⫛△ϸa","πo⫛△ⵠⵠ","πo⫛△πo","πo⫛△i₺","πo⫛△⫛‡","πo⫛△ţe","πo⫛△∑","πo⫛△~","πo⫛△ഽi","πo⫛△ȱȓ","πo⫛△⫛ȱ","πo⫛△","πo‡⫛△","πo‡Ŧo","πo‡‡o"]
+  },
+  {
+    "name": "Polaris", //Replaces Russia
+    "leaderName": "Leader Polaris",
+    "adjective": ["Polaris"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [155, 140, 115],
+    "innerColor": [255,255,255],
+    "startIntroPart1": ["The Polaris have lain trapped in the far reaches of the freezing tundra for eons, but were blessed by the unknowable Gaami with the power to expand their unnatural icy terrain farther than the weather permits.With the might of sleds and Mamoos, the mystical Polaris are determined to entomb the Square in ice and transform the land into a frigid paradise."],
+    
+    "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"denounced": "Fine then. It's your call.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+
+    "uniqueName": "Siberian Riches",
+    "uniques": ["[+1 Production] from every [Strategic resource]",
+                "[+100]% [Horses] resource production",
+			          "[+100]% [Iron] resource production"
+                //, "[+100]% [Uranium] resource production" // Change when Uranium is added back
+              ],
+
+    
+    "cities": ["tatonuuil","tatonuupi","tatonuudo","tatonuuiq","tatonuuaa","tatonuuan","tatonuupol","tatoilnuu","tatoilpi","tatoildo","tatoiliq","tatoilaa","tatoilan","tatoilpol","tatopinuu","tatopiil","tatopido","tatopiiq","tatopiaa","tatopian"]
+  },
+  {
+    "name": "Cymanti", // Replaces Germany 
+    // Despite some people saying that they are a representation of Ottomans, it doesn't make sense, considering how weak Cymanti water units are.
+    // Germany makes more sense here, because of land force and barbabarians conversion traits.
+    "adjective": ["Cymanti"],
+    "startBias": ["Jungle"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [199,253,0],
+    "innerColor": [0,0,0],
+    "startIntroPart1" : ["The Cymanti are a breakout group of Polytopians who moved to the swampy forests and learned to live with the Ciru Bug, which attaches to their faces and merges with their brains. Led by their Shaman, the Cymanti train gigantic bugs, use their enemies to fertilize their fungi farms and utilize crippling poisons to vanquish all who would threaten thier marshy home!",
+                         "The Simanti tribe is a group of people who escaped from the Polytopians and migrated to swampy forests, where they learned to live in symbiosis with the Ciru worms, which attach themselves to their faces and merge with their brains.",
+                         "Led by a shaman, the Cymanti tribe train giant bugs, hunt enemies to use as fertilizer for their mushroom farms, and use deadly poisons to destroy anyone who threatens their swamp haven!"],
+  
+    "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
+		"attacked": "Corrupted villain! We will bring you into the ground!",
+		"defeated": "Cymanti has been destroyed. I weep for the future generations.",
+		"denounced": "That wild bravado? It's a ticking time bomb, especially when you're all bark and no bite!",
+		"introduction": "Guten Tag. In the name of the great German people, I bid you welcome.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+
+    "uniqueName": "Furor Teutonicus",
+    "uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+			          "[-25]% maintenance costs <for [Land] units>"],
+
+    "cities": ["cyaph", "cybio", "cybo", "cyca", "cyce", "cychy", "cychi", "cyco", "cydi", "cydio", "cyea", "cyexo", "cyhex", "cyho", "cyia", "cyich", "cyl", "cymy", "cyneo", "cyner", "cyphy", "cypond", "cyrhi", "cysig", "cyssig", "cysy", "cyta", "cythe", "cytic", "cyum", "cyzi", "cyzo"]
+  },
+  //Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12]
+	}
+]

@@ -13,7 +13,8 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [139, 0, 0],
     "innerColor": [255,255,255],
-    "startIntroPart1" : ["They start their journey in the dense mountains, surrounded by beautiful cherry blossom."],
+    "startIntroPart1": "They start their journey in the dense mountains, surrounded by beautiful cherry blossom.",
+    "startIntroPart2": "",
 
     "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
 		"attacked": "Fool! I will disembowel you all!",
@@ -37,7 +38,8 @@
     "preferredVictoryType": "Diplomatic",
     "outerColor": [0,0,255],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["Huge mountains and green valleys. The Imperius climate is perfect for growing fruit."],
+    "startIntroPart1": "Huge mountains and green valleys. The Imperius climate is perfect for growing fruit.",
+    "startIntroPart2": "",
 
     "declaringWar": "You are in my way, you must be destroyed.",
 		"attacked": "As a matter of fact I too grow weary of peace.",
@@ -62,7 +64,8 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [231,116,0],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The seemingly endless, sun-blessed desert is the home of the Oumaji tribe."],
+    "startIntroPart1": "The seemingly endless, sun-blessed desert is the home of the Oumaji tribe.",
+    "startIntroPart2": "",
 
     "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
 		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
@@ -87,7 +90,8 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [25,25,25],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["Surviving the harsh eternal winter of the Bardur woods is not an easy task, but Bardur seems to thrive here."],
+    "startIntroPart1": "Surviving the harsh eternal winter of the Bardur woods is not an easy task, but Bardur seems to thrive here.",
+    "startIntroPart2": "",
 
     "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
 		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
@@ -113,7 +117,8 @@
     "preferredVictoryType": "Cultural",
     "outerColor": [40, 170, 40],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["White sandy beaches with coconut palms. Abundance of fruit and fish. Welcome to the home of the Kickoo."],
+    "startIntroPart1": "White sandy beaches with coconut palms. Abundance of fruit and fish. Welcome to the home of the Kickoo.",
+    "startIntroPart2": "",
 
     "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
 		"attacked": "It is obvious now that I misjudged you and your true intentions.",
@@ -140,7 +145,8 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [0,153,0],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The yellow autumn leaves of the Hoodrick woods are perfect hideouts for its peculiar mushroom stuffing inhabitants."],
+    "startIntroPart1": "The yellow autumn leaves of the Hoodrick woods are perfect hideouts for its peculiar mushroom stuffing inhabitants.",
+    "startIntroPart2": "",
 
     "declaringWar": "By the grace of God, your days are numbered.",
 		"attacked": "We shall never surrender.",
@@ -164,10 +170,8 @@
     "preferredVictoryType": "Cultural",
     "outerColor": [170,0,255],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The Luxidoor love expensive things, jewels, rare spices and exclusive ornaments.",
-                        "That is also why they are the most expensive tribe in Polytopia!",
-                        "The Luxidoor citizens lead very comfortable lives, draped in the finest purple silk.",
-                        "But will they survive outside the walls of their beloved capital?"],
+    "startIntroPart1": "The Luxidoor love expensive things, jewels, rare spices and exclusive ornaments. That is also why they are the most expensive tribe in Polytopia!",
+    "startIntroPart2": "The Luxidoor citizens lead very comfortable lives, draped in the finest purple silk. But will they survive outside the walls of their beloved capital?",
 
     "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
 		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
@@ -190,8 +194,8 @@
     "preferredVictoryType": "Domination",
     "outerColor": [89,89,89],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["Frowned upon by the other tribes and pushed into the unpleasant wastelands.", 
-                        "Will they tolerate this injustice or rise to fight back?"],
+    "startIntroPart1": "Frowned upon by the other tribes and pushed into the unpleasant wastelands. Will they tolerate this injustice or rise to fight back?",
+    "startIntroPart2": "",
 
     "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
 		"attacked": "No more words. Today, Vengir charges toward your defeat.",
@@ -216,7 +220,8 @@
     "preferredVictoryType": "Cultural",
     "outerColor": [204,102,0],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["Zebasi thrive on the warm savannah, cultivating the rich soil to provide food for their mighty population."],
+    "startIntroPart1": "Zebasi thrive on the warm savannah, cultivating the rich soil to provide food for their mighty population.",
+    "startIntroPart2": "",
     
     "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Zebazi empire. If you will not surrender immediately, then prepare for war!",
 		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
@@ -243,8 +248,9 @@
     "preferredVictoryType": "Cultural",
     "outerColor": [70, 160, 175],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The tranquil and wise Ai-Mo tribe inhabits the harshest, windiest, and highest mountain range of the square, where they have found inner peace by meditating in the eternal evening light."],
-    
+    "startIntroPart1": "The tranquil and wise Ai-Mo tribe inhabits the harshest, windiest, and highest mountain range of the square, where they have found inner peace by meditating in the eternal evening light.",
+    "startIntroPart2": "",
+
     "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
 		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
 		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
@@ -268,7 +274,8 @@
     "preferredVictoryType": "Domination",
     "outerColor": [29,71,62],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The Quetzali tribe worship the bird gods of the red soil and live in harmony with the natural symmetry of their cubistic jungles. They are commonly seen riding giant flightless birds."],
+    "startIntroPart1": "The Quetzali tribe worship the bird gods of the red soil and live in harmony with the natural symmetry of their cubistic jungles. They are commonly seen riding giant flightless birds.",
+    "startIntroPart2": "",
 
     "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
 		"attacked": "Excellent! Let the blood flow in raging torrents!",
@@ -291,7 +298,8 @@
     "preferredVictoryType": "Cultural",
     "outerColor": [89,28,30],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The Yădakk started out as a nomadic tribe in the beautiful harsh Khalee plains. Now they are the trades of the square, connecting their empire with impressive trade routes."],
+    "startIntroPart1": "The Yădakk started out as a nomadic tribe in the beautiful harsh Khalee plains. Now they are the trades of the square, connecting their empire with impressive trade routes.",
+    "startIntroPart2": "",
 
     "declaringWar": "The world will be more beautiful without you. Prepare for war.",
 		"attacked": "Fool! You will soon regret dearly! I swear it!",
@@ -317,8 +325,9 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [209, 115, 112],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["From the deep oceans a long lost civilization appears! Their extreme isolation has given them special aquatic abilities that are unknown to the other more human tribes. Aquarion have a slightly different tech tree and have access to the unique amphibious turtle units that no other tribe can train."],
-    
+    "startIntroPart1": "From the deep oceans a long lost civilization appears! Their extreme isolation has given them special aquatic abilities that are unknown to the other more human tribes. Aquarion have a slightly different tech tree and have access to the unique amphibious turtle units that no other tribe can train.",
+    "startIntroPart2": "",
+
     "declaringWar": "We will liberate the citizens under your oppression even with force, and enlighten them!",
 		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
 		"defeated": "Now the question is who will protect my people. A dark age has come.",
@@ -343,8 +352,9 @@
   "preferredVictoryType": "Cultural",
   "outerColor": [220, 80, 230],
   "innerColor": [255,255,255],
-  "startIntroPart1": ["The mysterious ∑∫ỹriȱŋ defend their woodland homes with colorful magic and the ferocity of fire-breathing dragons! They regard Nature as a holy spirit and cannot hunt animals or chop down trees, instead they start the game with the unique Enchantment tech that can turn regular animals into powerful monsters."],
-  
+  "startIntroPart1": "The mysterious ∑∫ỹriȱŋ defend their woodland homes with colorful magic and the ferocity of fire-breathing dragons! They regard Nature as a holy spirit and cannot hunt animals or chop down trees, instead they start the game with the unique Enchantment tech that can turn regular animals into powerful monsters.",
+  "startIntroPart2": "",
+
   "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
 	"attacked": "You evil creature! My braves will slaughter you!",
 	"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
@@ -368,8 +378,9 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [155, 140, 115],
     "innerColor": [255,255,255],
-    "startIntroPart1": ["The Polaris have lain trapped in the far reaches of the freezing tundra for eons, but were blessed by the unknowable Gaami with the power to expand their unnatural icy terrain farther than the weather permits.With the might of sleds and Mamoos, the mystical Polaris are determined to entomb the Square in ice and transform the land into a frigid paradise."],
-    
+    "startIntroPart1": "The Polaris have lain trapped in the far reaches of the freezing tundra for eons, but were blessed by the unknowable Gaami with the power to expand their unnatural icy terrain farther than the weather permits.With the might of sleds and Mamoos, the mystical Polaris are determined to entomb the Square in ice and transform the land into a frigid paradise.",
+    "startIntroPart2": "",
+
     "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
 		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
 		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
@@ -398,9 +409,8 @@
     "preferredVictoryType": "Scientific",
     "outerColor": [199,253,0],
     "innerColor": [0,0,0],
-    "startIntroPart1" : ["The Cymanti are a breakout group of Polytopians who moved to the swampy forests and learned to live with the Ciru Bug, which attaches to their faces and merges with their brains. Led by their Shaman, the Cymanti train gigantic bugs, use their enemies to fertilize their fungi farms and utilize crippling poisons to vanquish all who would threaten thier marshy home!",
-                         "The Simanti tribe is a group of people who escaped from the Polytopians and migrated to swampy forests, where they learned to live in symbiosis with the Ciru worms, which attach themselves to their faces and merge with their brains.",
-                         "Led by a shaman, the Cymanti tribe train giant bugs, hunt enemies to use as fertilizer for their mushroom farms, and use deadly poisons to destroy anyone who threatens their swamp haven!"],
+    "startIntroPart1" : "The Cymanti are a breakout group of Polytopians who moved to the swampy forests and learned to live with the Ciru Bug, which attaches to their faces and merges with their brains. Led by their Shaman, the Cymanti train gigantic bugs, use their enemies to fertilize their fungi farms and utilize crippling poisons to vanquish all who would threaten thier marshy home!",
+    "startIntroPart2": "The Simanti tribe is a group of people who escaped from the Polytopians and migrated to swampy forests, where they learned to live in symbiosis with the Ciru worms, which attach themselves to their faces and merge with their brains. Led by a shaman, the Cymanti tribe train giant bugs, hunt enemies to use as fertilizer for their mushroom farms, and use deadly poisons to destroy anyone who threatens their swamp haven!",
   
     "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
 		"attacked": "Corrupted villain! We will bring you into the ground!",

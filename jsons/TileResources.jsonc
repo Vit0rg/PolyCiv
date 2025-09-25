@@ -311,7 +311,7 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "Animal Husbandry",
+		"revealedBy": "TECH_0t_0_0_PEDIA",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
 		"improvement": "Pasture",
@@ -330,7 +330,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
+		"revealedBy": "TECH_1t_1_0_PEDIA",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",

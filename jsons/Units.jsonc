@@ -3,7 +3,7 @@
 		"name": "UNIT_CIVILIAN_1",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70,
 		"requiredTech": "TECH_0t_3_PEDIA"
 	},
@@ -79,7 +79,7 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", 
 					"No defensive terrain bonus",
 					"Must set up to ranged attack", 
-					"Limited Visibility"],
+					"[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -101,7 +101,8 @@
 		"range": 2,
 		"cost": 150,
 		"requiredTech": "TECH_1t_4_0_PEDIA",
-		"requiredResource": "Coal",
+		// TODO: Change when Coal is reimplemented (Balance reasons)
+		// "requiredResource": "Coal",
 		"uniques": ["Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -114,7 +115,7 @@
 		"uniques": [ //Insert Heal ability,
 					 // Insert conversion abilty (Check default German tree)
 					"Ignores terrain cost",
-					"+2 Visibility Range"
+					"[+2] Sight"
 					],
 		"attackSound": "nonmetalhit"
 	},
@@ -142,5 +143,59 @@
 					"[-75]% Strength <vs [Ranged] units> <when attacking>",
 					"[-75]% Strength <vs [Mounted] units> <when attacking>"],
 		"requiredTech": "TECH_1t_2_1_PEDIA"
+	},
+	// GREAT PEOPLE
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan", // Change to Mongolia replacement
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
 	}
 ]

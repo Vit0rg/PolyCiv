@@ -12,6 +12,15 @@
         "row": 0,
         "column": 0
     },
+	// Uniques that should be kept on upgrades
+	{
+		"name": "Morale", // Heroic Epic
+		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",

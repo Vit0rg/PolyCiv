@@ -335,7 +335,7 @@
 	},
 	// Scientific victory
 	{
-		"name": "Apollo Program",
+		"name": "BUILDING_SCIENTIFIC_VICTORY",
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [

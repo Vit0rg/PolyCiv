@@ -2,25 +2,25 @@
 	{
 		"name":"SPECIALIST_SCIENTIST",
 		"science":3,
-		"greatPersonPoints": {"UNIT_GREAT_SCIENTIST":3},
+		"greatPersonPoints": {"[UNIT_GREAT_SCIENTIST]":3},
 		"color": [0,0,255]
 	},
 	{
 		"name":"SPECIALIST_MERCHANT",
 		"gold":3,
-		"greatPersonPoints": {"UNIT_GREAT_MERCHANT":3},
+		"greatPersonPoints": {"[UNIT_GREAT_MERCHANT]":3},
 		"color": [255,215,0]
 	},
 	{
 		"name":"SPECIALIST_ARTIST",
 		"culture":2,
-		"greatPersonPoints": {"UNIT_GREAT_ARTIST":3},
+		"greatPersonPoints": {"[UNIT_GREAT_ARTIST]":3},
 		"color": [160,32,240]
 	},
 	{
 		"name":"SPECIALIST_ENGINEER",
 		"production":2,
-		"greatPersonPoints": {"UNIT_GREAT_ENGINEER":3},
+		"greatPersonPoints": {"[UNIT_GREAT_ENGINEER]":3},
 		"color": [139,69,19]
 	}
 ]

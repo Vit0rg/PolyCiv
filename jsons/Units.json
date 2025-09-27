@@ -169,7 +169,7 @@
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
-			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [BUILDING_SCIENTIFIC_VICTORY] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Limited to [1] per Civilization"
@@ -184,7 +184,7 @@
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
-			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [BUILDING_SCIENTIFIC_VICTORY] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Limited to [1] per Civilization"
@@ -199,7 +199,7 @@
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
-			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [BUILDING_SCIENTIFIC_VICTORY] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Limited to [1] per Civilization"
@@ -214,7 +214,7 @@
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
-			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [BUILDING_SCIENTIFIC_VICTORY] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Limited to [1] per Civilization"
@@ -229,7 +229,7 @@
 		"uniques": [
 			"Spaceship part",
 			"Cannot be purchased",
-			"Only available <if [Apollo Program] is constructed>",
+			"Only available <if [BUILDING_SCIENTIFIC_VICTORY] is constructed>",
 			"Uncapturable",
 			"Can be added to [The Spaceship] in the Capital",
 			"Limited to [1] per Civilization"
@@ -237,7 +237,7 @@
 	},
 	// GREAT PEOPLE
 	{
-		"name": "Great Scientist",
+		"name": "UNIT_GREAT_SCIENTIST",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can hurry technology research",
@@ -250,7 +250,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Merchant",
+		"name": "UNIT_GREAT_MERCHANT",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -263,7 +263,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Engineer",
+		"name": "UNIT_GREAT_ENGINEER",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building",
@@ -276,7 +276,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great General",
+		"name": "UNIT_GREAT_GENERAL",
 		"unitType": "Civilian",
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
@@ -290,10 +290,10 @@
 		"movement": 2
 	},
 	{
-		"name": "Khan", // Change to Mongolia replacement
+		"name": "Khan",
 		"unitType": "Civilian",
-		"uniqueTo": "Mongolia",
-		"replaces": "Great General",
+		"uniqueTo": "Vengir",
+		"replaces": "UNIT_GREAT_GENERAL",
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing",

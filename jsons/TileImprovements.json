@@ -325,7 +325,7 @@
   },
   {
     "name": "Terrace farm",
-    "uniqueTo": "Inca",
+    "uniqueTo": "Zebazi",
     "terrainsCanBeBuiltOn": ["Hill"],
     "food": 1,
     "turnsToBuild": 7,

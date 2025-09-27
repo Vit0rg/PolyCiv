@@ -100,37 +100,37 @@
         "prerequisites": ["TECH_1t_0_0_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 2,
         "name": "TECH_2t_0_1_PEDIA",
         "prerequisites": ["TECH_1t_0_1_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 3,
         "name": "TECH_2t_1_0_PEDIA",
         "prerequisites": ["TECH_1t_1_0_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 4,
         "name": "TECH_2t_1_1_PEDIA",
         "prerequisites": ["TECH_1t_1_1_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 5,
         "name": "TECH_2t_2_0_PEDIA",
         "prerequisites": ["TECH_1t_2_0_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 6,
         "name": "TECH_2t_2_1_PEDIA",
         "prerequisites": ["TECH_1t_2_1_PEDIA"]
       },
       {
-        "row": 1,
+        "row": 7,
         "name": "TECH_2t_3_0_PEDIA",
         "prerequisites": ["TECH_1t_3_0_PEDIA"]
       },
       {
-        "row": 0,
+        "row": 8,
         "name": "TECH_2t_4_0_PEDIA",
         "prerequisites": ["TECH_1t_4_0_PEDIA"],
         "uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Tier 1 era]>",

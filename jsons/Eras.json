@@ -5,14 +5,15 @@
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Warrior", // This should be changed according to the civilization type
+        "startingMilitaryUnit": "UNIT_MELEE_1", // This should be changed according to the civilization type
         "settlerPopulation": 1,
         "startingObsoleteWonders": [],
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+        "uniques":["Starting in this era disables religion"]
     },
     {
         "name": "Tier 2 era",
@@ -20,7 +21,7 @@
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 2,
-        "startingMilitaryUnit": "Spearman", // This should be changed according to the civilization type
+        "startingMilitaryUnit": "UNIT_MELEE_1", // This should be changed according to the civilization type
         "startingGold": 10,
         "startingCulture": 100,
         "settlerPopulation": 1,
@@ -29,7 +30,8 @@
         "embarkDefense": 4,
         "startPercent": 10,
         "citySound": "cityClassical",
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [233, 31, 99],
+        "uniques":["Starting in this era disables religion"]
     },
     {
         "name": "Tier 3 era",
@@ -37,17 +39,18 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Spearman", // This should be changed according to the civilization type
+        "startingMilitaryUnit": "UNIT_MELEE_1", // This should be changed according to the civilization type
         "startingGold": 25,
         "startingCulture": 200,
         "settlerPopulation": 1,
-        "settlerBuildings": ["Shrine","Monument"],
+        "settlerBuildings": ["BUILDING_MONUMENT"],
         "startingObsoleteWonders": [],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
         "citySound": "cityMedieval",
-        "iconRGB": [157, 39, 176]
+        "iconRGB": [157, 39, 176],
+        "uniques":["Starting in this era disables religion"]
     },
     //TODO: Industrial era
     {
@@ -56,20 +59,18 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Musketman",
+        "startingMilitaryUnit": "UNIT_MELEE_1",
         "startingGold": 100,
         "startingCulture": 400,
         "settlerPopulation": 3,
-        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Workshop","Amphitheater","Barracks","Library","Colosseum"],
+        "settlerBuildings": ["BUILDING_MONUMENT","BUILDING_GRANARY","BUILDING_LIGHTHOUSE","BUILDING_MARKET","BUILDING_WORKSHOP"],
         "startingObsoleteWonders": [],
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
         "startPercent": 50,
         "citySound": "cityIndustrial",
         "iconRGB": [63, 81, 182],
-        "uniques": ["May not generate great prophet equivalents naturally",
-                    "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-                    "Starting in this era disables religion",
+        "uniques": ["Starting in this era disables religion",
                     "Every major Civilization gains a spy once a civilization enters this era"
         ]
     }

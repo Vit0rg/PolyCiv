@@ -311,7 +311,7 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "TECH_0t_0_0_PEDIA",
+		"revealedBy": "TECH_0t_0_PEDIA",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
 		"improvement": "Pasture",

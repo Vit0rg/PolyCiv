@@ -147,7 +147,7 @@
 		"name": "BUILDING_MARKET",
 		"gold": 5,
 		"specialistSlots": {
-			"Merchant": 1
+			"SPECIALIST_MERCHANT": 1
 		},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {

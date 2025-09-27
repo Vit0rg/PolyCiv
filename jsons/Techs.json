@@ -134,7 +134,7 @@
         "name": "TECH_2t_4_0_PEDIA",
         "prerequisites": ["TECH_1t_4_0_PEDIA"],
         "uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Tier 1 era]>",
-                    "[+1] Movement <for [Embarked] units"]
+                    "[+1] Movement <for [Embarked] units>"]
       }
     ]
   },
@@ -146,7 +146,7 @@
     "wonderCost": 275,
     "techs": [
       {
-				"row": 0,
+				"row": 1,
         "name": "Future Tech",
 				"prerequisites": ["TECH_2t_0_0_PEDIA", "TECH_2t_0_1_PEDIA","TECH_2t_1_0_PEDIA", "TECH_2t_1_1_PEDIA" ,
                           "TECH_2t_2_0_PEDIA", "TECH_2t_2_1_PEDIA", "TECH_2t_3_0_PEDIA", "TECH_2t_4_0_PEDIA"],
